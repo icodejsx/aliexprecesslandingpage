@@ -62,7 +62,9 @@
     align-items:flex-start;
     flex-direction: row;
 }
-.nav 
+.navbar h1{
+    width
+}
 
 /* searchbar styles starts here */
 .navbar .searchbar .search  form{
