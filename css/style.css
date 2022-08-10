@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+/*MY  frist nav  styles starts here */
+.nav{
+    width:100%;
+    height:40px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    background:#fafafa;
+    font-size:13px;
+    padding-right:6rem;
+    gap:1.1rem;
+}
+.nav .cl{
+    width:1px;
+    height:13px;
+    display:flex;
+    background:#cccccc;
+}
+.nav span a{
+    text-decoration:none;
+    color:black;
+}
+.nav span i{
+    padding:8px;
+    top:8px;
+}
+.nav span a:hover{
+    color:rgb(255, 85, 0);
+}
+/* my first nav ends here */
+
+
+    /* -main navbar  style starts here  */
+.navbar{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    background:red;
+}
+.navbar .searchbar{
+    display:flex;
+    width:auto;
+    height:auto;
+    flex-direction: column;
+}
+.navbar .searchbar .cases {
+    display:flex;
+    height:auto;
+    width:auto;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: row;
+}
+
+/* searchbar styles starts here */
+.navbar .searchbar .search  form{
+    width:700px;
+    height:35px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    background:white;
+    justify-content:space-between;
+    border-radius:4px;
+}
+
+.navbar .searchbar .search form .searc{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+}
+
+.navbar .searchbar .search form input {
+    border:none;
+    outline:none;
+    margin-left:1rem;
+}
+.navbar .searchbar .search form input:active{
+    border:none;
+    outline:none;
+}
+.navbar .searchbar .search form select {
+    width:130px;
+    border: none;
+    outline: none;
+    display:flex;
+    justify-content:flex-start; 
+}
+
+.navbar .searchbar .search form .searc button i{
+    border:none;
+    font-size:1.2rem;
+    padding:30px 10px;
+    /* background: */
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .nav{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width:601px) {
+    .nav{
+        width:100%;
+        height: 40px;
+        display:flex;
+        padding:0;
+        justify-content: center;
+        align-items:center;
+        gap:1.3rem;
+    }
+    .nav span i{
+        display:none;
+
+    }
+
+}
