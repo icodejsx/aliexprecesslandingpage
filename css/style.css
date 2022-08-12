@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Noto+Sans+KR:wght@400;700&family=Open+Sans:ital,wght@0,300;1,500&display=swap');
+
+
+
 *{
     padding:0;
     margin:0;
@@ -5,7 +9,8 @@
 
 }
 body{
-    background:#fafafa
+    background:#f2f2f2;
+    font-family: open sans;
 }
 
 /*MY  frist nav  styles starts here */
@@ -139,6 +144,61 @@ body{
     background:#ff4747;
 }
 
+/* section styleing starts here */
+section{
+    width:88%;
+    height:auto;
+    background: red;
+    margin:2rem 4.5rem;
+    display:flex;
+    align-self:center;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+ .section .category{
+    width:250px;
+    height:530px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    gap:1.1rem;
+    border-radius: 10px;
+
+ }
+
+ .section .category  span a{
+    display:flex;
+    gap:10px;
+    text-decoration: none;
+    color:black;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-left:1rem;
+ }
+ .section .category span a i{
+    font-size: 1.3rem;
+    font-weight: 900;
+ }
+
+ select .items  {
+    font-weight:1px;
+    font-style: open sans;  
+ }
+ section .category  .cate{
+    background:#f9f9f9;
+    width: 100%;
+    color:bolder;
+    height: 40px;
+ }
+ 
+ /* upbar sections style */
+.section .upbar{
+    width:80%;
+    height:200px;
+    display: flex;
+    justify-content:space-between;
+    
+}
 
 
 
