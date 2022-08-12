@@ -193,11 +193,16 @@ section{
  
  /* upbar sections style */
 .section .upbar{
-    width:80%;
-    height:200px;
+    width:100%;
+    height:100px;
     display: flex;
     justify-content:space-between;
-    
+    align-items:center
+}
+
+.section .upbar img{
+    width: 200px;
+    height: auto;
 }
 
 
