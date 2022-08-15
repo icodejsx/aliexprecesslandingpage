@@ -239,7 +239,7 @@ section{
     
 }
 .section .secondpart .part1{
-    width:350px;
+    width:300px;
     height: 450px;
     background:#fb687e;
     display:flex;
@@ -316,13 +316,73 @@ section{
     background:green;
     display:flex;
     justify-content:center;
-    
     gap:20px;
 }
 
+/* welcompart styles  */
+.secondpart .lastside{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin:1rem 0rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.secondpart .part2{
+    width: 370px;
+    height: 140px;
+    margin:0 1rem 1rem 1rem;
+}
+.secondpart .part2 img{
+    object-fit: cover;
+    border-radius: 10px;
+}
 
-
-
+.secondpart .lastside .welcomeali{
+    display:flex;
+    width:235px;
+    height: 140px;
+    background:#ffffff;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem 0; */
+    gap:2rem;
+    border-radius: 10px;
+}
+.secondpart .lastside .welcomeali h2 {
+    display:flex;
+    font-size:0.9rem;
+    /* margin-left: 1rem; */
+}
+.secondpart .lastside .welcomeali .button{
+    font-size: 15px;
+    display:flex;
+    gap:2rem;
+}
+.secondpart .lastside .welcomeali button {
+    font-size:15px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border:none;
+    margin-bottom:0.5rem;
+}
+.secondpart .lastside .welcomeali .button .cancelbtn  {
+    padding: 10px 25px;
+    background: #ff5721;
+    color:white;
+    font-weight:bold;
+}
+.secondpart .lastside .welcomeali .button .signupbtn {
+    font-weight:bold;
+}
+.secondpart .lastside .hotdeals{
+    width:auto;
+    height:auto;
+    display:flex;
+}
 
 
 @media screen and (max-width:600px) {
