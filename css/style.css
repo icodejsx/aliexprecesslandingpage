@@ -223,10 +223,20 @@ section{
     width: 80%;
     height: auto;
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content:flex-start;
     align-items:flex-start;
     /* background:red; */
+}
+.section .secondpart .sidepart{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    
 }
 .section .secondpart .part1{
     width:350px;
@@ -274,13 +284,16 @@ section{
     height:auto;
     width:280px;
     margin-top: 1rem;
-    padding:13px 30px;
+    padding:10px 30px;
     font-size:13px;
     border-radius: 10px;
     justify-content:space-between;
 }
 .section .secondpart .part1 .ammount i{
-    font-size:15px;
+    font-size:25px;
+    color:#fb687e;
+    background-color:white;
+    border-radius:50%;
 }
 
 
@@ -295,6 +308,16 @@ section{
     font-size:15px;
     color:#fb687e;
     font-weight:bold;
+}
+
+.secondpart .thirdpart{
+    width: 200px;
+    height:auto;
+    background:green;
+    display:flex;
+    justify-content:center;
+    
+    gap:20px;
 }
 
 
