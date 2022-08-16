@@ -414,9 +414,7 @@ section{
     justify-content:flex-start;
     margin:0.2rem 1rem;
 } 
-.secondpart .lastside .hotdeals .imgbox img {
 
-}
 .secondpart .lastside .hotdeals .imgbox figcaption p{
     font-weight:bolder;
     font-size: 13px;
@@ -459,7 +457,7 @@ section{
 }
 .cardsection .text .firstpart span span {
     font-size:20px;
-    margin-bottom:1rem;
+    margin-bottom:2 rem;
 }
 .cardsection .text .firstpart p{
     font-size:2rem;
