@@ -240,7 +240,7 @@ section{
 }
 .section .secondpart .part1{
     width:50%;
-    height: 450px;
+    height: 464px;
     background:#fb687e;
     display:flex;
     justify-content:center;
@@ -380,7 +380,7 @@ section{
 }
 .secondpart .lastside .hotdeals{
     width:100%;
-    height: auto;
+    height: 310px;
     display:flex;
     margin:0 0;
     flex-direction:column;
@@ -390,7 +390,7 @@ section{
 .secondpart .lastside .hotdeals .top{
     display:flex;
     justify-content: space-between;
-    margin: 0.4rem 1rem
+    margin: 0.6rem 1rem
 }
 .secondpart .lastside .hotdeals .top .superdeal h1{
     font-size:1.3rem;
@@ -414,7 +414,6 @@ section{
     justify-content:flex-start;
     margin:0.2rem 1rem;
 } 
-
 .secondpart .lastside .hotdeals .imgbox img {
 
 }
@@ -424,6 +423,88 @@ section{
 }
 
 .secondpart .lastside .hotdeals .imgbox figcaption span{
+    font-weight:100;
+    font-size: 13px;
+}
+
+/* shopping card color starts here */
+.cardsection{
+    width:87%;
+    height:auto;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction:column;
+    background: white;
+    border-radius: 10px;
+    margin: 1rem auto;
+}
+.cardsection .text{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin: auto;
+}
+.cardsection .text .firstpart{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:4rem;
+    margin:0 1rem;
+}
+.cardsection .text .firstpart span {
+    font-size:2rem;
+    margin-top:0.4rem;
+}
+.cardsection .text .firstpart span span {
+    font-size:20px;
+    margin-bottom:1rem;
+}
+.cardsection .text .firstpart p{
+    font-size:2rem;
+    font-weight:bolder;
+}
+.cardsection .text .firstpart h2{
+    font-size:13px;
+    display:flex;
+    flex-direction:row;
+}
+.cardsection .text .firstpart p span {
+    color:red;
+}
+.cardsection .text .firstpart h5{
+    font-size:1.2rem;
+    margin-top:1rem;
+    font-weight:100;
+}
+.cardsection .text .secondpart{
+    display:flex;
+    justify-content:center;
+    margin: 1rem 1rem 1rem 0;
+    font-size:0.9rem;
+}
+.cardsection .imgbox{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    margin:0 1rem 1rem 1rem;
+    gap:1.5rem;
+}
+.cardsection .imgbox img  {
+    width: 170px;
+    height:200px;
+    object-fit:cover;
+    
+}
+.cardsection .imgbox figcaption {
+    font-weight: bolder;
+    font-size:1.2rem;
+}
+.cardsection .imgbox figcaption span{
     font-weight:100;
     font-size: 13px;
 }
