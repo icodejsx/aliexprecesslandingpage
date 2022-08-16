@@ -230,7 +230,7 @@ section{
     /* background:red; */
 }
 .section .secondpart .sidepart{
-    width:auto;
+    width:100%;
     height:auto;
     display:flex;
     flex-direction: row;
@@ -239,7 +239,7 @@ section{
     
 }
 .section .secondpart .part1{
-    width:300px;
+    width:50%;
     height: 450px;
     background:#fb687e;
     display:flex;
@@ -321,19 +321,19 @@ section{
 
 /* welcompart styles  */
 .secondpart .lastside{
-    width: auto;
+    width: 90%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    margin:1rem 0rem;
+    margin:1rem 1rem;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
 }
 .secondpart .part2{
-    width: 370px;
+    width: 347px;
     height: 140px;
-    margin:0 1rem 1rem 1rem;
+    margin:0 1rem 1rem 0;
 }
 .secondpart .part2 img{
     object-fit: cover;
@@ -342,7 +342,7 @@ section{
 
 .secondpart .lastside .welcomeali{
     display:flex;
-    width:235px;
+    width:225px;
     height: 140px;
     background:#ffffff;
     flex-direction:column;
@@ -379,10 +379,55 @@ section{
     font-weight:bold;
 }
 .secondpart .lastside .hotdeals{
-    width:auto;
-    height:auto;
+    width:100%;
+    height: auto;
     display:flex;
+    margin:0 0;
+    flex-direction:column;
+    background:#ffffff;
+    border-radius: 10px;
 }
+.secondpart .lastside .hotdeals .top{
+    display:flex;
+    justify-content: space-between;
+    margin: 0.4rem 1rem
+}
+.secondpart .lastside .hotdeals .top .superdeal h1{
+    font-size:1.3rem;
+    font-weight:bolder;
+}
+.secondpart .lastside .hotdeals .top .superdeal h1 i span{
+    color:red
+}
+.secondpart .lastside .hotdeals .top .superdeal p{
+    font-size:13px;
+}
+.secondpart .lastside .hotdeals .top .superdeal .view {
+    font-weight:100;
+}
+
+.secondpart .lastside .hotdeals .imgbox {
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    gap:0.5rem;
+    justify-content:flex-start;
+    margin:0.2rem 1rem;
+} 
+
+.secondpart .lastside .hotdeals .imgbox img {
+
+}
+.secondpart .lastside .hotdeals .imgbox figcaption p{
+    font-weight:bolder;
+    font-size: 13px;
+}
+
+.secondpart .lastside .hotdeals .imgbox figcaption span{
+    font-weight:100;
+    font-size: 13px;
+}
+
 
 
 @media screen and (max-width:600px) {
