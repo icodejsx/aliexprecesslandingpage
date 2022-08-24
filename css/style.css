@@ -453,7 +453,12 @@ section{
 }
 .cardsection .text .firstpart span {
     font-size:2rem;
-    margin-top:0.4rem;
+    padding:10px 10px;
+    /* margin-top:0.4rem; */
+}
+.cardsection .text .firstpart i {
+    font-size:25px;
+    padding-inline: 10px 10px;
 }
 .cardsection .text .firstpart span span {
     font-size:20px;
